@@ -1,0 +1,9 @@
+INICIO
+    LEER num1
+    LEER num2
+    
+    PARA contador=num1 MIENTRAS contador<=num2 AUMENTA contador=contador+1
+        ESCRIBIR num1
+        num1=num1+1
+    FIN-PARA
+FIN

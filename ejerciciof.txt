@@ -1,0 +1,11 @@
+INICIO
+    Leer peso
+    Leer peso_ideal
+    Leer cambio_de_peso
+    
+    PARA semanas=1 MIENTRAS peso>=peso_ideal AUMENTA semanas=semanas+1
+        peso=peso-cambio_de_peso
+    FIN-PARA
+
+    ESCRIBIR semanas     
+FIN

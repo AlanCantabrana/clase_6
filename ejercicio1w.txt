@@ -1,0 +1,9 @@
+INICIO
+    Leer num1
+    Leer num2
+    MIENTRAS num1<=num2 HACER
+        ESCRIBIR num1
+        num1=num1+1
+
+    FIN-MIENTRAS
+FIN
